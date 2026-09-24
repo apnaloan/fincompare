@@ -1,5 +1,5 @@
 const cards=[
- {bank:"HDFC",name:"HDFC Bank Credit Card",sub:"Demo offer — rewards & everyday spending",fee:"₹0* / year",tag:"Annual Fee",reward:"Rewards",url:"https://www.hdfcbank.com/"},
+ {bank:"HDFC",name:"HDFC Bank Credit Card",sub:"Demo offer — rewards & everyday spending",fee:"₹0* / year",tag:"Annual Fee",reward:"Rewards",url:"https://www.sales.gromo.in/hpx/zrJ0MqLPOC/"},
  {bank:"ICICI",name:"ICICI Bank Credit Card",sub:"Demo offer — shopping & lifestyle",fee:"₹0* / year",tag:"Annual Fee",reward:"Cashback",url:"https://www.icicibank.com/"},
  {bank:"AXIS",name:"Axis Bank Credit Card",sub:"Demo offer — travel & dining",fee:"₹0* / year",tag:"Annual Fee",reward:"Benefits",url:"https://www.axisbank.com/"}
 ];
