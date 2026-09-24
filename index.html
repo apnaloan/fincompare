@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Compare credit cards and personal loans and apply through lender links.">
+  <title>FinCompare — Credit Cards & Personal Loans</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="logo" href="#"><span>Fin</span>Compare</a>
+      <nav>
+        <a href="#cards">Credit Cards</a>
+        <a href="#loans">Personal Loans</a>
+        <a href="#how">How it works</a>
+      </nav>
+      <a class="nav-cta" href="#offers">View Offers</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="pill">✓ Compare options in one place</div>
+          <h1>Find the right <span>credit card</span> or personal loan.</h1>
+          <p class="hero-copy">Compare featured offers, understand key fees and benefits, and continue to the lender's application page.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#cards">Compare Credit Cards</a>
+            <a class="btn secondary" href="#loans">Compare Personal Loans</a>
+          </div>
+          <div class="trust-row">
+            <span>🔒 Secure browsing</span>
+            <span>✓ Transparent information</span>
+            <span>↗ Lender application links</span>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="mini-label">Quick finder</div>
+          <h3>What are you looking for?</h3>
+          <button class="choice active" data-target="cards">💳 Credit Card <span>→</span></button>
+          <button class="choice" data-target="loans">💰 Personal Loan <span>→</span></button>
+          <p class="small">Demo website. Final lender links and commercial disclosures should be added before public launch.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container stat-grid">
+        <div><strong>2</strong><span>Product categories</span></div>
+        <div><strong>6+</strong><span>Demo offers</span></div>
+        <div><strong>100%</strong><span>Mobile responsive</span></div>
+        <div><strong>1-click</strong><span>Apply flow</span></div>
+      </div>
+    </section>
+
+    <section id="cards" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div><div class="eyebrow">CREDIT CARDS</div><h2>Featured credit cards</h2></div>
+          <a href="#cards" class="text-link">View all →</a>
+        </div>
+        <div class="product-grid" id="cardGrid"></div>
+      </div>
+    </section>
+
+    <section id="loans" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <div><div class="eyebrow">PERSONAL LOANS</div><h2>Featured personal loans</h2></div>
+          <a href="#loans" class="text-link">View all →</a>
+        </div>
+        <div class="product-grid" id="loanGrid"></div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="container">
+        <div class="center-head"><div class="eyebrow">HOW IT WORKS</div><h2>Simple, transparent, fast</h2></div>
+        <div class="steps">
+          <div class="step"><b>01</b><h3>Choose a product</h3><p>Select a credit card or personal loan based on your needs.</p></div>
+          <div class="step"><b>02</b><h3>Compare details</h3><p>Review fees, rates, benefits and important eligibility information.</p></div>
+          <div class="step"><b>03</b><h3>Apply with lender</h3><p>Use the Apply Now button to continue to the lender's website.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="offers" class="cta-section">
+      <div class="container cta">
+        <div><div class="eyebrow light">READY TO START?</div><h2>Compare your options today.</h2><p>Use the cards above to open an application link.</p></div>
+        <a class="btn white" href="#cards">Explore Offers →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><a class="logo" href="#"><span>Fin</span>Compare</a><p>Demo comparison website for testing on Vercel.</p></div>
+      <div><h4>Products</h4><a href="#cards">Credit Cards</a><a href="#loans">Personal Loans</a></div>
+      <div><h4>Information</h4><a href="#how">How it works</a><a href="javascript:openModal('disclosure')">Disclosure</a><a href="javascript:openModal('privacy')">Privacy</a></div>
+    </div>
+    <div class="container copyright">© 2026 FinCompare Demo. This is a demonstration site and is not a bank, lender, or financial institution.</div>
+  </footer>
+
+  <div class="modal" id="modal"><div class="modal-box"><button class="close" onclick="closeModal()">×</button><div id="modalContent"></div></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
